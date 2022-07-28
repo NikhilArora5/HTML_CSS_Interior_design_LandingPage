@@ -1,0 +1,218 @@
+
+
+body{
+   background-image: url(/images/retro-living-room-interior-design.jpg);
+   background-size:cover;
+   height:70vh;
+   /* width: 150vw; */
+   background-repeat: no-repeat;
+   background-position:center;
+   font-family: 'Poppins';
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+    position: relative;
+}
+
+
+.nav-list{
+    display: inline-flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    /* border-bottom: 2px solid #fff ;
+    padding-bottom: 30px;
+    border-radius: 0px; */
+}
+
+.nav-list-items{
+    margin: 0 30px;
+    font-size: 1.2rem;
+    
+}
+
+.call{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-icon{
+   margin-right: 5px;
+   font-size: 25px;
+   transform: rotate(-40deg);
+    
+}
+
+/* .nav-list-items::after{
+    content: '_';
+    position: absolute;
+    margin: 10px 0px;
+    z-index: 2;
+    height: 600px;
+    width: 1000px;
+} */
+
+.line hr {
+    position:absolute;
+    margin: auto auto;
+    color: #fff;
+    font-size: 0rem;
+    border-bottom: 1px thin #fff;
+   
+    width: 880px;
+    right: 220px;
+    height: 0px;
+    background-color: #fff;
+    
+
+
+}
+
+
+
+
+
+
+/* MID SECTION CSS */
+
+
+.mid-section{
+    position: relative;
+    margin: auto auto ;
+    display: grid;
+    grid-template-columns: 1fr .70fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.left-section{
+    margin: 0 auto;
+    margin-left: 200px;
+}
+
+.learn-more{
+    all: unset;
+    color: #fff;
+    border: 3px solid #fff;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    border-radius: 35px;
+    margin-top: 20px;
+}
+
+.heading{
+    font-size: 3.5rem;
+    width: 100%;
+    color:#fff;
+}
+
+
+
+
+
+.right section{
+    color:#fff;
+    position:relative;
+    display: flex;
+    flex-direction:column;
+}
+
+.feature{
+
+    background-color:#304657 ;
+    display: block;
+    width: 200px;
+    padding: 20px;
+    margin: 2px;
+    color: #ffF;
+    /* position: relative; */
+}
+
+.feature >h3{
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+
+
+.puzzle-img{
+   
+    font-size: 2rem;
+    margin-left: px;
+    color: #000;
+    border: ;
+    background-color: #fff;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+.bulb-img{
+    font-size: 2rem;
+    margin-left: px;
+    color: #000;
+    
+    background-color: #fff;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+.puzzle-div{
+    margin-left: 250px;
+}
+
+
+.bulb-div{
+
+    margin-top: 100px;
+    position: ;
+}
+
+.pipe-circle-2{
+    position: absolute;
+    margin-left: 290px;
+    margin-bottom: 900px;
+    transform: rotate(180deg);
+    display: inline-block;
+    z-index: -1;
+    margin-top: 30px;
+
+}
+
+.pipe-circle-1{
+    position: absolute;
+    margin-left: 350px;
+    transform: rotate(-90deg);
+    margin-top: 45px;
+}
+
+
+
+.circle-img{
+    width: 20px;
+    position: relative;
+    color: #FFF;
+    background-color:#fff;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.pipe-line{
+    position:absolute;
+    width: 90px;
+    color: #fff;
+    margin-bottom: 100px;
+    z-index: -1;
+}
+.pipe-container{
+    /* position: relative; */
+}
